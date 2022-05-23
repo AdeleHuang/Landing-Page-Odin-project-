@@ -9,25 +9,62 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .nav {
-  height: 300px;
+  height: 500px;
+  background-color: #1f2937;
   display: flex;
   flex-direction: column;
-  background-color: #1f2937;
-  flex: 1;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 1200px;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+.header a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7e8;
+}
+.nav-bar ul {
+  display: flex;
+  gap: 20px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 300px;
+  justify-content: ;
 }
 
 .main-title {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bolder;
   color: #f9faf8;
+  width: 400px;
 }
 .sub-text {
   font-size: 18px;
   color: #e5e7e8;
+  overflow-wrap: normal;
 }
 .logo {
   font-size: 24px;
   color: #f9faf8;
+}
+.content-left {
+  height: 200px;
+  width: 450px;
+}
+
+.content-right {
+  height: 200px;
+  width: 450px;
+  border: 1px;
+  background-color: #f9faf8;
 }
