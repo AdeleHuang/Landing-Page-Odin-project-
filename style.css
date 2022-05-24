@@ -15,7 +15,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 100px;
+  margin-top: -60px;
+  gap: 90px;
 }
 .header {
   display: flex;
@@ -23,7 +24,6 @@ body {
   align-items: baseline;
   width: 1200px;
   justify-content: space-between;
-  align-content: flex-end;
 }
 .header a {
   text-decoration: none;
@@ -34,12 +34,14 @@ body {
   display: flex;
   gap: 20px;
 }
+.nav-bar {
+  margin-right: 60px;
+}
 .hero-content {
   display: flex;
   flex-direction: row;
   width: 1200px;
-  height: 300px;
-  justify-content: ;
+  justify-content: space-between;
 }
 
 .main-title {
@@ -52,19 +54,36 @@ body {
   font-size: 18px;
   color: #e5e7e8;
   overflow-wrap: normal;
+  margin-top: -8px;
 }
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  margin-left: 80px;
 }
 .content-left {
-  height: 200px;
+  height: 230px;
   width: 450px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content-right {
-  height: 200px;
-  width: 450px;
+  height: 230px;
+  width: 550px;
   border: 1px;
-  background-color: #f9faf8;
+  background-color: lightgray;
+  margin-right: 60px;
+}
+
+.hero-content .button-1 {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+  color: #f9faf8;
+  padding: 10px 40px;
+  align-self: flex-start;
+  font-size: 18px;
 }
