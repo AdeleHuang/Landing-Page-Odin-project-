@@ -143,7 +143,48 @@ body {
 
 .quote-text p {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 200;
   font-style: italic;
   color: #1f2937;
+}
+.call-to-action {
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.call-to-action-box {
+  background-color: #3882f6;
+  border-radius: 15px;
+  width: 960px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  color: #f9faf8;
+}
+.main-text h3 {
+  font-size: 23px;
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+.main-text h4 {
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.main-text {
+  margin-left: -60px;
+}
+.button-2 {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 6px 33px;
+  margin-right: -60px;
+  margin-bottom: -10px;
 }
