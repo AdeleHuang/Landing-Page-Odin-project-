@@ -157,12 +157,12 @@ body {
 .call-to-action-box {
   background-color: #3882f6;
   border-radius: 15px;
-  width: 960px;
-  height: 150px;
+  width: 1030px;
+  height: 156px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 120px;
+  gap: 160px;
   color: #f9faf8;
 }
 .main-text h3 {
@@ -187,4 +187,18 @@ body {
   padding: 6px 33px;
   margin-right: -60px;
   margin-bottom: -10px;
+}
+.footer {
+  height: 128px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h5 {
+  font-weight: 300;
+  font-size: 18px;
+  word-spacing: 3px;
 }
